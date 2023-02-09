@@ -1,5 +1,9 @@
 
 
+gcc -c test.c
+
+ar rc libtest.a test.o
+
 git clone https://github.com/tailscale/tailscale
 
 add function and call get_myuser_function in:   /root/.cache/tailscale-go/src/net/fd_unix.go
